@@ -46,7 +46,7 @@ add_library(topology_input src/topology_input.cc)
 target_link_libraries(topology_input ncode gflags)
 
 add_library(tm_gen_lib STATIC src/tm_gen.cc)
-target_link_libraries(tm_gen_lib ncode gflags_nothreads)
+target_link_libraries(tm_gen_lib ncode)
 
 add_executable(tm-gen src/tm_gen_main.cc)
 target_link_libraries(tm-gen topology_input tm_gen_lib gflags)
