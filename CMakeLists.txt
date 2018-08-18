@@ -8,7 +8,7 @@ option(TM_GEN_BASE_ASAN "Compile with ASAN on" OFF)
 option(TM_GEN_BASE_TSAN "Compile with TSAN on" OFF)
 
 set(TM_GEN_BASE_BASE_FLAGS "-g -std=c++11 -pedantic-errors -Winit-self -Woverloaded-virtual -Wuninitialized -Wall -Wextra -fno-exceptions")
-set(TM_GEN_BASE_BASE_LD_FLAGS "-lpthread")
+set(TM_GEN_BASE_BASE_LD_FLAGS "")
 if (TM_GEN_BASE_ASAN)
    set(TM_GEN_BASE_BASE_FLAGS "${TM_GEN_BASE_BASE_FLAGS} -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls")
    set(TM_GEN_BASE_BASE_LD_FLAGS "${TM_GEN_BASE_BASE_LD_FLAGS} -fsanitize=address")
@@ -49,4 +49,6 @@ add_library(tm_gen_lib STATIC src/tm_gen.cc)
 target_link_libraries(tm_gen_lib ncode)
 
 add_executable(tm-gen src/tm_gen_main.cc)
-target_link_libraries(tm-gen topology_input tm_gen_lib gflags)
+target_link_libraries(tm-gen topology_input tm_gen_lib gflags pthread)
+
+install (TARGETS tm-gen DESTINATION bin)
