@@ -51,4 +51,6 @@ target_link_libraries(tm_gen_lib ncode)
 add_executable(tm-gen src/tm_gen_main.cc)
 target_link_libraries(tm-gen topology_input tm_gen_lib gflags pthread)
 
-install (TARGETS tm-gen DESTINATION bin)
+install(TARGETS tm-gen DESTINATION bin)
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/data/topologies 
+        DESTINATION /usr/local/tm-gen)

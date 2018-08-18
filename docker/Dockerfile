@@ -6,5 +6,5 @@ RUN apt-get upgrade && apt-get update && apt-get install --no-install-recommends
     cd tm-gen && mkdir build && cd build && cmake -DTM_GEN_DISABLE_TESTS=YES -DTM_GEN_DISABLE_BENCHMARKS=YES .. && make && make install && cd / && \
     apt-get purge -y libpcap-dev libglpk-dev git cmake gcc openssl make && apt-get autoremove -y && rm -rf ./tm-gen && rm -rf ./ncode-common && \
     apt-get install -y libpcap0.8 libglpk40 && apt-get clean
-COPY topologies /topologies
- 
+ENTRYPOINT ["/usr/local/bin/tm-gen"]
+CMD ["--help"]

@@ -11,12 +11,12 @@
 #include "ncode/perfect_hash.h"
 #include "ncode/strutil.h"
 
-DEFINE_string(topology_root, "", "Root for topologies. Required.");
-DEFINE_uint64(topology_size_limit, 100000,
+DEFINE_string(topology_root, "/usr/local/tm-gen/topologies", "Root for topologies. Required.");
+DEFINE_uint64(topology_size_limit, 70,
               "Topologies with node count more than this will be skipped");
 DEFINE_uint64(topology_delay_limit_ms, 10,
               "Topologies with diameter less than this limit will be skipped");
-DEFINE_uint64(topology_n_top, 100000,
+DEFINE_uint64(topology_n_top, 99999,
               "Only the top N (in node count) topologies will be included");
 
 namespace tm_gen {
