@@ -1,0 +1,27 @@
+NODES 8
+label x y
+0_New_York_0_0_0 0 0
+1_London_1_1_1 0 0
+2_Stockholm_2_2_2 0 0
+3_St_Petersburg_3_3_3 0 0
+4_Moscow_4_4_4 0 0
+5_Amsterdam_5_5_5 0 0
+6_Frankfurt_6_6_6 0 0
+7_Paris_7_7_7 0 0
+
+EDGES 14
+label src dest weight bw delay
+edge_0 0 5 0 1000000 1515
+edge_1 5 0 0 1000000 1515
+edge_2 1 5 0 1000000 1557
+edge_3 5 1 0 1000000 1557
+edge_4 2 3 0 1000000 2990
+edge_5 3 2 0 1000000 2990
+edge_6 2 5 0 1000000 4885
+edge_7 5 2 0 1000000 4885
+edge_8 3 4 0 1000000 2753
+edge_9 4 3 0 1000000 2753
+edge_10 5 6 0 1000000 1588
+edge_11 6 5 0 1000000 1588
+edge_12 5 7 0 1000000 1874
+edge_13 7 5 0 1000000 1874

@@ -1,0 +1,25 @@
+NODES 6
+label x y
+0_Palo_Alto_0_0_0 0 0
+1_Los_Angeles_1_1_1 0 0
+2_Denver_2_2_2 0 0
+3_Chicago_3_3_3 0 0
+4_Vienna_4_4_4 0 0
+5_Atlanta_5_5_5 0 0
+
+EDGES 14
+label src dest weight bw delay
+edge_0 0 1 0 45000 2243
+edge_1 1 0 0 45000 2243
+edge_2 0 2 0 45000 6552
+edge_3 2 0 0 45000 6552
+edge_4 0 4 0 45000 16840
+edge_5 4 0 0 45000 16840
+edge_6 1 5 0 45000 13478
+edge_7 5 1 0 45000 13478
+edge_8 2 3 0 45000 6401
+edge_9 3 2 0 45000 6401
+edge_10 3 4 0 45000 4074
+edge_11 4 3 0 45000 4074
+edge_12 4 5 0 45000 3723
+edge_13 5 4 0 45000 3723

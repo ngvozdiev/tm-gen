@@ -1,0 +1,42 @@
+NODES 13
+label x y
+0_TEN-155_0_0_0 0 0
+1_Zlin_1_1_1 0 0
+2_Ostrava_2_2_2 0 0
+3_Olomouc_3_3_3 0 0
+4_Brno_4_4_4 0 0
+5_Plzen_5_5_5 0 0
+6_Usti_nad_Labem_6_6_6 0 0
+7_Praha_7_7_7 0 0
+8_Liberec_8_8_8 0 0
+9_Ceske_Budejovice_9_9_9 0 0
+10_NIX_10_10_10 0 0
+11_Pardubice_11_11_11 0 0
+12_Hradec_Kralove_12_12_12 0 0
+
+EDGES 24
+label src dest weight bw delay
+edge_0 0 7 0 34000 457
+edge_1 7 0 0 34000 457
+edge_2 1 4 0 7750 345
+edge_3 4 1 0 7750 345
+edge_4 2 4 0 34000 618
+edge_5 4 2 0 34000 618
+edge_6 3 4 0 34000 291
+edge_7 4 3 0 34000 291
+edge_8 4 7 0 155000 819
+edge_9 7 4 0 155000 819
+edge_10 5 7 0 34000 374
+edge_11 7 5 0 34000 374
+edge_12 6 7 0 7750 312
+edge_13 7 6 0 7750 312
+edge_14 7 8 0 34000 392
+edge_15 8 7 0 34000 392
+edge_16 7 9 0 34000 548
+edge_17 9 7 0 34000 548
+edge_18 7 10 0 8000 457
+edge_19 10 7 0 8000 457
+edge_20 7 11 0 34000 431
+edge_21 11 7 0 34000 431
+edge_22 7 12 0 34000 452
+edge_23 12 7 0 34000 452

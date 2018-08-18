@@ -1,0 +1,28 @@
+NODES 7
+label x y
+0_Seattle_0_0_0 0 0
+1_Santa_Clara_1_1_1 0 0
+2_Phoenix_2_2_2 0 0
+3_Tucson_3_3_3 0 0
+4_Washington,_DC_4_4_4 0 0
+5_Baltimore_5_5_5 0 0
+6_Pittsburgh_6_6_6 0 0
+
+EDGES 16
+label src dest weight bw delay
+edge_0 0 1 0 45000 4950
+edge_1 1 0 0 45000 4950
+edge_2 1 2 0 45000 4318
+edge_3 2 1 0 45000 4318
+edge_4 1 4 0 45000 16868
+edge_5 4 1 0 45000 16868
+edge_6 1 6 0 45000 15657
+edge_7 6 1 0 45000 15657
+edge_8 2 3 0 45000 761
+edge_9 3 2 0 45000 761
+edge_10 2 4 0 45000 13793
+edge_11 4 2 0 45000 13793
+edge_12 4 5 0 45000 260
+edge_13 5 4 0 45000 260
+edge_14 5 6 0 45000 1378
+edge_15 6 5 0 45000 1378

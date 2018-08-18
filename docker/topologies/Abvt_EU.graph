@@ -1,0 +1,17 @@
+NODES 4
+label x y
+12_Paris_12_12_12 0 0
+5_London_5_5_5 0 0
+8_Amsterdam_8_8_8 0 0
+9_Frankfurt_9_9_9 0 0
+
+EDGES 8
+label src dest weight bw delay
+edge_0 1 0 0 1000000 1500
+edge_1 0 1 0 1000000 1500
+edge_2 1 2 0 1000000 1557
+edge_3 2 1 0 1000000 1557
+edge_4 2 3 0 1000000 1588
+edge_5 3 2 0 1000000 1588
+edge_6 3 0 0 1000000 2082
+edge_7 0 3 0 1000000 2082

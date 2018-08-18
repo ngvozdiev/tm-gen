@@ -1,0 +1,79 @@
+NODES 20
+label x y
+0_F._of_Mining_and_Geology_Stip_0_0_0 0 0
+1_ONnet_NEOTEL_SONET_1_1_1 0 0
+2_NOC_and_CampusSocial_Sciences_2_2_2 0 0
+3_I._of_Economy_3_3_3 0 0
+4_NationalBroadcastingcompany_Comm._Tower_4_4_4 0 0
+5_I_of_Political_and_Juridical_Res_5_5_5 0 0
+6_GEANT_SEEREN_6_6_6 0 0
+7_Campus_Natural_Sciences_and_Mathematics_7_7_7 0 0
+8_F._of_Pedagogy_8_8_8 0 0
+9_MOL_9_9_9 0 0
+10_National_and_Univ_Library_10_10_10 0 0
+11_I._of_Earthquake_Engineering_11_11_11 0 0
+12_I._of_National_History_12_12_12 0 0
+13_I._of_Macedonian_Literature_13_13_13 0 0
+14_St_Clement_of_Ohrid_University_in_Bitola_14_14_14 0 0
+15_Several_Ministries_of_the_Government_15_15_15 0 0
+16_Campus_Arch_and_Civil_Eng_16_16_16 0 0
+17_CampusTechnical_17_17_17 0 0
+18_Campus_Medicine_18_18_18 0 0
+19_CampusBiotech._Sciences_19_19_19 0 0
+
+EDGES 54
+label src dest weight bw delay
+edge_0 0 2 0 473312 312
+edge_1 2 0 0 473312 312
+edge_2 1 4 0 473312 44
+edge_3 4 1 0 473312 44
+edge_4 2 3 0 473312 13
+edge_5 3 2 0 473312 13
+edge_6 2 4 0 155000 13
+edge_7 4 2 0 155000 13
+edge_8 2 5 0 473312 13
+edge_9 5 2 0 473312 13
+edge_10 2 6 0 68000 44
+edge_11 6 2 0 68000 44
+edge_12 2 7 0 1000000 13
+edge_13 7 2 0 1000000 13
+edge_14 2 9 0 473312 44
+edge_15 9 2 0 473312 44
+edge_16 2 10 0 473312 13
+edge_17 10 2 0 473312 13
+edge_18 2 11 0 473312 13
+edge_19 11 2 0 473312 13
+edge_20 2 12 0 473312 13
+edge_21 12 2 0 473312 13
+edge_22 2 13 0 473312 13
+edge_23 13 2 0 473312 13
+edge_24 2 14 0 473312 478
+edge_25 14 2 0 473312 478
+edge_26 2 15 0 473312 13
+edge_27 15 2 0 473312 13
+edge_28 2 16 0 1000000 13
+edge_29 16 2 0 1000000 13
+edge_30 2 17 0 1000000 13
+edge_31 17 2 0 1000000 13
+edge_32 2 18 0 1000000 13
+edge_33 18 2 0 1000000 13
+edge_34 2 19 0 1000000 13
+edge_35 19 2 0 1000000 13
+edge_36 4 7 0 50000 13
+edge_37 7 4 0 50000 13
+edge_38 4 10 0 50000 13
+edge_39 10 4 0 50000 13
+edge_40 4 11 0 50000 13
+edge_41 11 4 0 50000 13
+edge_42 4 16 0 50000 13
+edge_43 16 4 0 50000 13
+edge_44 4 17 0 50000 13
+edge_45 17 4 0 50000 13
+edge_46 4 18 0 50000 13
+edge_47 18 4 0 50000 13
+edge_48 4 19 0 50000 13
+edge_49 19 4 0 50000 13
+edge_50 5 17 0 1000000 13
+edge_51 17 5 0 1000000 13
+edge_52 8 17 0 1000000 13
+edge_53 17 8 0 1000000 13

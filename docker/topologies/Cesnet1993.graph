@@ -1,0 +1,33 @@
+NODES 10
+label x y
+0_Ostrava_0_0_0 0 0
+1_Ebone_1_1_1 0 0
+2_Plzen_2_2_2 0 0
+3_Praha_3_3_3 0 0
+4_Liberec_4_4_4 0 0
+5_Ceske_Budejovice_5_5_5 0 0
+6_Pardubice_6_6_6 0 0
+7_Hradec_Kralove_7_7_7 0 0
+8_Olomouc_8_8_8 0 0
+9_Brno_9_9_9 0 0
+
+EDGES 18
+label src dest weight bw delay
+edge_0 0 9 0 2000 618
+edge_1 9 0 0 2000 618
+edge_2 1 3 0 2000 491
+edge_3 3 1 0 2000 491
+edge_4 2 3 0 2000 374
+edge_5 3 2 0 2000 374
+edge_6 3 4 0 2000 392
+edge_7 4 3 0 2000 392
+edge_8 3 5 0 2000 548
+edge_9 5 3 0 2000 548
+edge_10 3 6 0 2000 431
+edge_11 6 3 0 2000 431
+edge_12 3 7 0 2000 452
+edge_13 7 3 0 2000 452
+edge_14 3 9 0 6000 819
+edge_15 9 3 0 6000 819
+edge_16 8 9 0 2000 291
+edge_17 9 8 0 2000 291

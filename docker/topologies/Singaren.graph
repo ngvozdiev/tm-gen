@@ -1,0 +1,36 @@
+NODES 11
+label x y
+0_NICT_QGPOP_APAN-JP_Japan_0_0_0 0 0
+1_AARNET_1_1_1 0 0
+2_Academia_Sinica_Taiwan_2_2_2 0 0
+3_NTU_3_3_3 0 0
+4_Biopolis_4_4_4 0 0
+5_Fusionopolis_5_5_5 0 0
+6_NUS_6_6_6 0 0
+7_Schools_7_7_7 0 0
+8_SingAREN_members_8_8_8 0 0
+9_SingAREN-GIX_9_9_9 0 0
+10_TEIN3_10_10_10 0 0
+
+EDGES 20
+label src dest weight bw delay
+edge_0 0 9 0 1000000 26
+edge_1 9 0 0 1000000 26
+edge_2 1 9 0 1000000 26
+edge_3 9 1 0 1000000 26
+edge_4 2 9 0 1000000 26
+edge_5 9 2 0 1000000 26
+edge_6 3 9 0 1000000 26
+edge_7 9 3 0 1000000 26
+edge_8 4 9 0 1000000 26
+edge_9 9 4 0 1000000 26
+edge_10 5 9 0 1000000 26
+edge_11 9 5 0 1000000 26
+edge_12 6 9 0 1000000 26
+edge_13 9 6 0 1000000 26
+edge_14 7 9 0 1000000 26
+edge_15 9 7 0 1000000 26
+edge_16 8 9 0 1000000 26
+edge_17 9 8 0 1000000 26
+edge_18 9 10 0 1000000 26
+edge_19 10 9 0 1000000 26

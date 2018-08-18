@@ -1,0 +1,15 @@
+NODES 4
+label x y
+20_nrt1_20_20_20 0 0
+41_Equinix_41_41_41 0 0
+42_NTT_42_42_42 0 0
+44_JPIX_44_44_44 0 0
+
+EDGES 6
+label src dest weight bw delay
+edge_0 0 2 0 6553571 14432
+edge_1 2 0 0 6553571 14432
+edge_2 0 3 0 6553571 14432
+edge_3 3 0 0 6553571 14432
+edge_4 0 1 0 6553571 14432
+edge_5 1 0 0 6553571 14432

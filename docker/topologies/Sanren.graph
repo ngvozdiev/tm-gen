@@ -1,0 +1,26 @@
+NODES 7
+label x y
+0_Johannesburg_0_0_0 0 0
+1_Pretoria_1_1_1 0 0
+2_Durban_2_2_2 0 0
+3_Bloemfontein_3_3_3 0 0
+4_East_London_4_4_4 0 0
+5_Port_Elizabeth_5_5_5 0 0
+6_Cape_Town_6_6_6 0 0
+
+EDGES 14
+label src dest weight bw delay
+edge_0 0 1 0 1000000 241
+edge_1 1 0 0 1000000 241
+edge_2 0 3 0 1000000 1627
+edge_3 3 0 0 1000000 1627
+edge_4 1 2 0 1000000 2327
+edge_5 2 1 0 1000000 2327
+edge_6 2 4 0 1000000 1999
+edge_7 4 2 0 1000000 1999
+edge_8 3 6 0 1000000 3946
+edge_9 6 3 0 1000000 3946
+edge_10 4 5 0 1000000 1053
+edge_11 5 4 0 1000000 1053
+edge_12 5 6 0 1000000 2873
+edge_13 6 5 0 1000000 2873

@@ -1,0 +1,36 @@
+NODES 11
+label x y
+0_Limerick_0_0_0 0 0
+1_Cork_1_1_1 0 0
+2_Tralee_2_2_2 0 0
+3_Galway_3_3_3 0 0
+4_Sligo_4_4_4 0 0
+5_Letterkenny_5_5_5 0 0
+6_Athlone_6_6_6 0 0
+7_Dundalk_7_7_7 0 0
+8_Blanchardstown,_Dun_Laoghaire,_Tallaght_8_8_8 0 0
+9_Carlow_9_9_9 0 0
+10_Waterford_10_10_10 0 0
+
+EDGES 20
+label src dest weight bw delay
+edge_0 0 8 0 1000000 748
+edge_1 8 0 0 1000000 748
+edge_2 1 8 0 1000000 959
+edge_3 8 1 0 1000000 959
+edge_4 2 8 0 1000000 1118
+edge_5 8 2 0 1000000 1118
+edge_6 3 8 0 1000000 782
+edge_7 8 3 0 1000000 782
+edge_8 4 8 0 1000000 743
+edge_9 8 4 0 1000000 743
+edge_10 5 8 0 1000000 855
+edge_11 8 5 0 1000000 855
+edge_12 6 8 0 1000000 460
+edge_13 8 6 0 1000000 460
+edge_14 7 8 0 1000000 306
+edge_15 8 7 0 1000000 306
+edge_16 8 9 0 1000000 314
+edge_17 9 8 0 1000000 314
+edge_18 8 10 0 1000000 595
+edge_19 10 8 0 1000000 595

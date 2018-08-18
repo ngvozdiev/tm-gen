@@ -1,0 +1,21 @@
+NODES 6
+label x y
+0_Bijelo_Polje_0_0_0 0 0
+1_Niksic_1_1_1 0 0
+2_Podgorica_2_2_2 0 0
+3_Njegusi_3_3_3 0 0
+4_Kotor_4_4_4 0 0
+5_Herceg_Novi_5_5_5 0 0
+
+EDGES 10
+label src dest weight bw delay
+edge_0 0 2 0 1000000 345
+edge_1 2 0 0 1000000 345
+edge_2 1 2 0 1000000 208
+edge_3 2 1 0 1000000 208
+edge_4 2 3 0 1000000 166
+edge_5 3 2 0 1000000 166
+edge_6 2 4 0 1000000 187
+edge_7 4 2 0 1000000 187
+edge_8 2 5 0 1000000 270
+edge_9 5 2 0 1000000 270

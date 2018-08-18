@@ -1,0 +1,48 @@
+NODES 13
+label x y
+0_SEQSUINET,_Rice_University,_Houston_0_0_0 0 0
+1_Jon_Von_Neumann_Center,_Princeton,_NJ_1_1_1 0 0
+2_SURANET,_Georgia_Tech,_Atlanta_2_2_2 0 0
+3_Pittsburgh_Supercomputer_Center_3_3_3 0 0
+4_Cornell_Theory_Center,_Ithaca_NY_4_4_4 0 0
+5_NorthWestNet,_Seattle_5_5_5 0 0
+6_BARRnet,_Palo_Alto_6_6_6 0 0
+7_San_Diego_Supercomputer_Center_7_7_7 0 0
+8_Westnet,_Salt_Lake_City_8_8_8 0 0
+9_NCAR,_Boulder_9_9_9 0 0
+10_MIDnet,_Lincoln,_NE_10_10_10 0 0
+11_NCSA,_University_of_Illinois,_Champaign_11_11_11 0 0
+12_Merit_Univ_of_Michigan,_Ann_Arbor_12_12_12 0 0
+
+EDGES 30
+label src dest weight bw delay
+edge_0 0 2 0 1544 4893
+edge_1 2 0 0 1544 4893
+edge_2 0 11 0 1544 5730
+edge_3 11 0 0 1544 5730
+edge_4 0 7 0 1544 9079
+edge_5 7 0 0 1544 9079
+edge_6 1 2 0 1544 4914
+edge_7 2 1 0 1544 4914
+edge_8 1 4 0 1544 1216
+edge_9 4 1 0 1544 1216
+edge_10 3 12 0 1544 1627
+edge_11 12 3 0 1544 1627
+edge_12 4 12 0 1544 2589
+edge_13 12 4 0 1544 2589
+edge_14 5 9 0 1544 6952
+edge_15 9 5 0 1544 6952
+edge_16 5 6 0 1544 4906
+edge_17 6 5 0 1544 4906
+edge_18 6 12 0 1544 14271
+edge_19 12 6 0 1544 14271
+edge_20 6 7 0 1544 3016
+edge_21 7 6 0 1544 3016
+edge_22 8 9 0 1544 2464
+edge_23 9 8 0 1544 2464
+edge_24 9 11 0 1544 6276
+edge_25 11 9 0 1544 6276
+edge_26 10 11 0 1544 3114
+edge_27 11 10 0 1544 3114
+edge_28 11 12 0 1544 1947
+edge_29 12 11 0 1544 1947

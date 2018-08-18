@@ -1,0 +1,23 @@
+NODES 6
+label x y
+0_Novi_Sad_0_0_0 0 0
+1_Belgrade_1_1_1 0 0
+2_Kragujevac_2_2_2 0 0
+3_Nis_3_3_3 0 0
+4_Krusevac_4_4_4 0 0
+5_Podgorica_5_5_5 0 0
+
+EDGES 12
+label src dest weight bw delay
+edge_0 0 1 0 2500000 314
+edge_1 1 0 0 2500000 314
+edge_2 0 5 0 2500000 1380
+edge_3 5 0 0 2500000 1380
+edge_4 1 2 0 2500000 421
+edge_5 2 1 0 2500000 421
+edge_6 2 3 0 2500000 491
+edge_7 3 2 0 2500000 491
+edge_8 3 4 0 2500000 244
+edge_9 4 3 0 2500000 244
+edge_10 4 5 0 2500000 923
+edge_11 5 4 0 2500000 923

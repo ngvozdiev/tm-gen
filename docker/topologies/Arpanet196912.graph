@@ -1,0 +1,17 @@
+NODES 4
+label x y
+0_SRI_0_0_0 0 0
+1_USCB_1_1_1 0 0
+2_UCLA_2_2_2 0 0
+3_UTAH_3_3_3 0 0
+
+EDGES 8
+label src dest weight bw delay
+edge_0 0 1 0 1000000 1762
+edge_1 1 0 0 1000000 1762
+edge_2 0 2 0 1000000 2259
+edge_3 2 0 0 1000000 2259
+edge_4 0 3 0 1000000 4170
+edge_5 3 0 0 1000000 4170
+edge_6 1 2 0 1000000 616
+edge_7 2 1 0 1000000 616
