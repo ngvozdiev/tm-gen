@@ -7,4 +7,4 @@ RUN apt-get upgrade && apt-get update && apt-get install --no-install-recommends
     apt-get purge -y libpcap-dev libglpk-dev git cmake gcc openssl make && apt-get autoremove -y && rm -rf ./tm-gen && rm -rf ./ncode-common && \
     apt-get install -y libpcap0.8 libglpk40 && apt-get clean
 ENTRYPOINT ["/usr/local/bin/tm-gen"]
-CMD ["--help"]
+
