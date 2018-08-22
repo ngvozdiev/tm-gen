@@ -1,6 +1,6 @@
 # tm-gen
 
-`tm-gen` is a console-based utility for generating synthetic traffic matrices. It is based on the gravity model from [Roughan's 2005 CCR paper](http://www.maths.adelaide.edu.au/matthew.roughan/papers/ccr_2005.pdf).
+`tm-gen` is a console-based utility for generating synthetic traffic matrices. It is based on the gravity model from [Roughan's 2005 CCR paper](http://www.maths.adelaide.edu.au/matthew.roughan/papers/ccr_2005.pdf). More details about how `tm-gen` generates traffic matrices can be found [here](https://github.com/ngvozdiev/tm-gen/blob/master/methodology/methodology.pdf).
 
 ## Usage with Docker
 
@@ -16,7 +16,7 @@ which will run `tm-gen` and list its arguments.
 
 `--min_scale_factor` (default: `"1.3"`) controls how loaded traffic matrices will be. Aggregates in all generated traffic matrices will be scaleable by at least this much. This means that if you multiply each traffic matrix's demands by this number then the traffic matrix will be completely saturated. Can be a comma-separated list in which case will generate traffic matrices for each of the scale values specified.
 
-`--output_pattern` (default: `"demand_matrices/scale_factor_$2/locality_$1/$0_$3.demands"`) traffic matrices will be saved to files named after this pattern, with $0 replaced by the topology name, $1 replaced by locality, $2 replaced by scale factor and $3 replaced by a unique integer identifier.
+`--output_pattern` (default: `"demand_matrices/scale_factor_$2/locality_$1/$0_$3.demands"`) traffic matrices will be saved to files named after this pattern, with `$0` replaced by the topology name, `$1` replaced by locality, `$2` replaced by scale factor and `$3` replaced by a unique integer identifier.
 
 `--seed` (default: `1`) seed for generated traffic matrices.
 
