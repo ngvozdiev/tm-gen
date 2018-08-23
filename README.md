@@ -24,7 +24,7 @@ which will run `tm-gen` and list its arguments.
 
 `--tm_count` (default: `1`) number of traffic matrices to generate. Will generate this many traffic matrices for each combination of topology, locality and scale factor.
 
-`--topology_root` (default: `"/usr/local/tm-gen/topologies"`) where to look for topologies. The topologies should be specified in the format used by https://bitbucket.org/StevenGay/repetita, briefly summarized below. 
+`--topology_root` (default: `"/usr/local/tm-gen/topologies"`) where to look for topologies. The topologies should be specified in the format used by [Repetita](https://bitbucket.org/StevenGay/repetita), briefly summarized below. 
 
 `--topology_delay_limit_ms` (default: `10`) topologies with diameter less than this will be skipped
 
