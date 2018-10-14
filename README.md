@@ -34,4 +34,13 @@ which will run `tm-gen` and list its arguments.
 
 In brief, the first line of each topology file should be `NODES XX` followed by a comment line and XX lines for each of the nodes in the graph. Each node line is of the format `<node_name> <x> <y>` where x and y are the x,y coordinates of the node. The nodes section is followed by and empty line and `EDGES XX` on a new line. A comment line is next, followed by for each edge `<label> <src> <dst> <weight> <bw> <delay>`. The bandwidth is in Kbps and the delay in microseconds.
 
-`tm-gen` comes with all topologies from [Repetita](https://bitbucket.org/StevenGay/repetita). The topologies will be installed under `/usr/local/tm-gen/topologies` (which is also the default value for the `--topology_root` argument) when you do `make install`. If you are using the Docker image the topologies are pre-installed in the image.
+`tm-gen` comes with all topologies from [Repetita](https://bitbucket.org/StevenGay/repetita). The topologies will be installed under `/usr/local/tm-gen/topologies` (which is also the default value for the `--topology_root` argument) when you do `make install`. If you are using the Docker image the topologies are pre-installed in the image, so you do not have to specify `--topology_root`.
+
+## Examples
+
+To generate traffic matrices with locality 0 and scale factor of 1.3 under `/tmp/demand_matrices`:
+
+`docker run -v /tmp/demand_matrices:/demand_matrices ngvozdiev/tm-gen`
+
+the `-v /tmp/demand_matrices:/demand_matrices` binds `/tmp/demand_matrices` on the local filesystem to `/demand_matrices` within the docker container, which is the default location in the `output_pattern` argument. Will only generate matrices for topologies with less than 70 nodes and diameter more than 10 ms.
+

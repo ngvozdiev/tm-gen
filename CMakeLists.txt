@@ -45,12 +45,19 @@ SET(BUILD_TESTING ${OLD_BUILD_TESTING})
 add_library(topology_input src/topology_input.cc)
 target_link_libraries(topology_input ncode gflags)
 
-add_library(tm_gen_lib STATIC src/tm_gen.cc)
-target_link_libraries(tm_gen_lib ncode)
+add_library(demand_matrix_input src/demand_matrix_input.cc)
+target_link_libraries(demand_matrix_input ncode gflags)
+
+add_library(tm_gen_lib STATIC src/tm_gen.cc src/opt/common.cc src/opt/path_provider.cc src/opt/opt.cc src/opt/ldr.cc)
+target_link_libraries(tm_gen_lib ncode gflags)
 
 add_executable(tm-gen src/tm_gen_main.cc)
-target_link_libraries(tm-gen topology_input tm_gen_lib gflags pthread)
+target_link_libraries(tm-gen topology_input tm_gen_lib pthread)
+
+add_executable(tm-run src/tm_run.cc)
+target_link_libraries(tm-run demand_matrix_input tm_gen_lib pthread)
 
 install(TARGETS tm-gen DESTINATION bin)
+install(TARGETS tm-run DESTINATION bin)
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/data/topologies 
         DESTINATION /usr/local/tm-gen)

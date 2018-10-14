@@ -1,5 +1,5 @@
-#ifndef TMGEN_H
-#define TMGEN_H
+#ifndef TM_GEN_H
+#define TM_GEN_H
 
 #include <ncode/lp/demand_matrix.h>
 #include <ncode/net/net_common.h>

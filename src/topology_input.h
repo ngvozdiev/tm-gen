@@ -1,5 +1,5 @@
-#ifndef TMGEN_TOPOLOGY_INPUT_H
-#define TMGEN_TOPOLOGY_INPUT_H
+#ifndef TM_GEN_TOPOLOGY_INPUT_H
+#define TM_GEN_TOPOLOGY_INPUT_H
 
 #include <iostream>
 #include <memory>
@@ -21,7 +21,8 @@ struct TopologyAndFilename {
   std::string file;
 };
 
-// Returns a set of topologies from input flags. The flags are in tm_input.cc.
+// Returns a set of topologies from input flags. The flags are in
+// topology_input.cc.
 std::vector<TopologyAndFilename> GetTopologyInputs();
 
 }  // namespace tm_gen
