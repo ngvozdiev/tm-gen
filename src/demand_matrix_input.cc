@@ -17,7 +17,7 @@
 #include "ncode/strutil.h"
 #include "topology_input.h"
 
-DEFINE_string(tm_root, "", "Root for traffic matrix file(s). Required.");
+DEFINE_string(tm_root, "demand_matrices", "Root for traffic matrix file(s). Required.");
 DEFINE_string(
     topology_root, "/usr/local/tm-gen/topologies",
     "Root for topologies. If empty will be set to the same as tm_root.");
